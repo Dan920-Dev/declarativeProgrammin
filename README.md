@@ -1,1 +1,1 @@
-# declarativeProgrammin
+Prgramacion Declarativa.
