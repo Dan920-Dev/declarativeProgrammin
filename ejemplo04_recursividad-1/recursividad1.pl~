@@ -1,31 +1,31 @@
-% Primeros ejemplos recursivos 26/Agosto/2021:
+% Recursividad
+% Conteo de 1 a n.
 
-% Conteo de 1 a n:
+% En recursionn de cola:
 
-% En recursión de cola:
-
-contar(N, N):-
-    %=:=(A, N),
+contar(N, N):-  % Se repite la clausula para que no de un false al terminar la recursion
     writeln(N), !.
 
 contar(A, N):-
-    <(A, N),
-    writeln(A),
-    is(A2, +(A, 1)),
-    contar(A2, N).
+    <(A, N), % verificamos si A es menor a N.
+    writeln(A), % escribimos A.
+    is(A2, +(A, 1)), % le asignamos el valor de A+1 a A2
+    contar(A2, N). % Llamada recursiva
 
-% En recursión por posposición:
+
+
+% En recursion por posposicion:
 % Notar que el conteo se hace de mayor a menor.
 
-contar2(A, N):-
+contar2(A, N):- % Se repite la clausula para que no de un false al terminar la recursion
     =:=(A, N),
     writeln(A), !.
 
 contar2(A, N):-
-    <(A, N),
-    is(A2, +(A, 1)),
-    contar2(A2, N),
-    writeln(A).
+    <(A, N),          % verificamos si A es menor a N.
+    is(A2, +(A, 1)),  % le asignamos el valor de A+1 a A2
+    contar2(A2, N),   % llamada recursiva
+    writeln(A).       % se escribe A
 
 
 

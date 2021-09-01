@@ -27,6 +27,20 @@ contar2(A, N):-
     contar2(A2, N),   % llamada recursiva
     writeln(A).       % se escribe A
 
+% contar de 1 a N en recursion por posposicion
+
+contar3(1):-
+   %  =:=(N,1),
+    writeln(1), !.
+
+
+contar3(N):-
+    >(N,1),         % verificamos si N es mayor a 1
+    is(N2, +(N,1)), % Asignamos el valor N+1 a N2
+    contar3(N2),    % llamda recursiva
+    writeln(N).     % se escribe A
+
+
 
 
 
