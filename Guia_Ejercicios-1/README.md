@@ -5,9 +5,9 @@ en el intérprete de Prolog si se obtienen los resultados correctos:
 ![EX](/Src/ejercicio_1.PNG)
 
 2. ¿Cuál es el resultado de realizar las consultas siguientes?
-a) ?- =(+(3, X), C), =(W, X), =(W, 8).
-b) ?- is(X, max(10, 12)), is(Y, mod(12, 10)), =(W, tan(X + Y)).
-c) ?- =(g(h(Q)), W), =(Q, sin(0) + cos(0)).
+* ?- =(+(3, X), C), =(W, X), =(W, 8).
+* ?- is(X, max(10, 12)), is(Y, mod(12, 10)), =(W, tan(X + Y)).
+* ?- =(g(h(Q)), W), =(Q, sin(0) + cos(0)).
 
 3. Pepito se escapó de su casa y se fue con sus amigos al centro comercial. Estando
 allí se da cuenta de que sus papas también han ido de compras. Elabore una base
