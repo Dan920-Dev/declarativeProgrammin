@@ -1,0 +1,15 @@
+% Locales
+local(local1).
+local(local2).
+local(local3).
+local(local4).
+local(local5).
+local(local6).
+local(local7).
+local(local8).
+
+
+no(X, Y, Z) :-
+    local(Z),
+    \==(X, Z),
+    \==(Y, Z), !.
