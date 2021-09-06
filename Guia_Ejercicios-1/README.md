@@ -2,7 +2,7 @@
 
 1. Escriba las siguientes expresiones aritméticas en forma prefija, evalúelas y pruebe,
 en el intérprete de Prolog si se obtienen los resultados correctos:
-![EX](/Src/ejercicio_1.png)
+![EX](/Src/ejercicio_1.PNG)
 
 2. ¿Cuál es el resultado de realizar las consultas siguientes?
 a) ?- =(+(3, X), C), =(W, X), =(W, 8).
@@ -79,7 +79,8 @@ sumatoria que se muestra abajo. Elabore la regla aprox_e/2 que calcule una
 aproximación del valor de e para una cantidad, n, determinada de términos. En el
 primer argumento se coloca el valor de n y en el segundo se recibe el valor
 calculado.
-![EX](/Src/ejercicio_1b.png)
+
+![EX](/Src/ejercicio_1b.PNG)
 
 2. Dado como argumento un número N, elabore una cláusula recursiva que imprima
 en pantalla una letra leída desde teclado esa cantidad de veces.
@@ -119,7 +120,7 @@ paso(6, empacado).
 paso(7, almacenaje).
 Ejemplos:
 
-![EX](/Src/ejercicio_1c.png)
+![EX](/Src/ejercicio_1c.PNG)
 
 
 2. En la siguiente figura puede ver cinco eras geológicas de la tierra. A estas eras les
@@ -138,4 +139,4 @@ relaciones del tipo le_sigue(<periodo anterior>, <periodo posterior>).
 pertenecen. Para resolver esta cláusula utilice relaciones le_pertenece(<era>,
 <periodo>).
   
-![EX](/Src/ejercicio_2c.png)
+![EX](/Src/ejercicio_2c.PNG)
