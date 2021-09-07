@@ -1,0 +1,26 @@
+numero_secreto(X):-
+    writeln('Ingresar un número del 1 al 2'), nl,
+    read(N),nl,
+    random(1, 2, R), nl,
+    writeln('# random'), nl,
+    writeln(R),
+    writeln(X),
+    mayor_menor(N, R, X).
+
+mayor_menor(N, R, X):-
+   is(X1, +(X,1)),
+   <(N,R),
+   writeln('El número ingresado es menor al número secreto'),
+   umero_secreto(X1).
+
+mayor_menor(N, R, X):-
+   is(X1, +(X,1)),
+   >(N,R),
+   writeln('El número ingresado es mayor al número secreto'),
+   numero_secreto(X1).
+
+mayor_menor(N, R, X):-
+   =:=(N,R),
+   writeln('El número ingresado es igual al número secreto'),
+   write('Numero de Intentos: '),
+   writeln(X),!.
