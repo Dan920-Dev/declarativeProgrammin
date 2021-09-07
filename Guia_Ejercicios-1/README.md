@@ -101,9 +101,9 @@ repite la división.
 
 5. Conversiones entre distintas bases numéricas. Elabore cláusulas para convertir
 número enteros en base diez a surepresentación en:
-i. Binario.
-ii. Octal.
-iii. Hexadecimal.
+* Binario.
+* Octal.
+* Hexadecimal.
 
 ## Resuelva los siguientes problemas:
 1. Dado el conjunto de hechos que se muestra, escriba la regla proxima_etapa/1, a la
