@@ -1,5 +1,5 @@
 
-Recursion(X, N, T):-        % Tomamos la letra y el numero de veces a repetir
+recursion(X, N, T):-        % Tomamos la letra y el numero de veces a repetir
     <(N, T),                % N tiene que ser menor al Total de veces
     writeln(X),             % Escribe la letra
     recursion(X, N+1, T).   % Aumentamosen 1 la N
