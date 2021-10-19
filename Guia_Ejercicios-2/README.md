@@ -18,10 +18,3 @@ componen. Por ejemplo, contarParImpar(7834623, P, I) liga las variable P e I con
 argumento y en su segundo argumento se le especifica el dígito a eliminar en dicha
 cantidad. Por ejemplo, eliminar_digito(675235, 5, X) retornará en X la cantidad 6723.
 Note que se borran todas las ocurrencias del dígito especificado.
-
-5. Elabore la cláusula nuevos_enteros/3 que, dada la cantidad entera del primer
-argumento, construya dos nuevos valores a partir de los dígitos pares y los dígitos
-impares de esta. Estos nuevos enteros son retornados en los otros dos argumentos de
-la cláusula. En ambas cantidades, los dígitos deben conservar su posición relativa.
-Ejemplo: nuevos_enteros(78341, A, B), retorna en A el valor entero 84 y en B el valor
-entero 731.
